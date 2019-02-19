@@ -1,0 +1,30 @@
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+
+
+.animationDiv{
+  width: 100px;
+  height: 100px;
+  background-color: #33ff33;
+  position: relative;
+  animation-name: example;
+  animation-duration: 10s;
+}
+
+
+/* Standard syntax */
+@keyframes example {
+  0%   {background-color:#99ff99; left:0px; top:0px;}
+  50%  {background-color:#b3b3ff; left:400px; top:0px;}
+  100% {background-color:#ffcc80; left:0px; top:0px;}
+  
+}
